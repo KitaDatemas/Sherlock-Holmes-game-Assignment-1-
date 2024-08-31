@@ -1,0 +1,13 @@
+cmake_minimum_required(VERSION 3.27)
+project(initial)
+
+set(CMAKE_CXX_STANDARD 14)
+
+include_directories(.)
+
+add_executable(initial
+        main.cpp
+        main.h
+        sa_tc_01_input
+        study_in_pink1.cpp
+        study_in_pink1.h)
